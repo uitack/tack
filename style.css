@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+a {
+    color:black;
+    text-decoration:none;
+}
+li{
+    margin: 20px 0px;
+}
+#h1{
+    color:white;
+}
+h1{
+    border-bottom:4px solid gray;
+    margin:0;
+    padding:50px;
+    text-align:center;
+    background-color:green;
+}
+#grid ol{
+    border-right:4px solid gray;
+    width:100px;
+    margin:0;
+    padding-top:20px;
+}
+#grid li:hover{
+    background:white;
+    color:red;
+}
+#tack:hover,#dragon:hover,#edasa:hover{
+    color:red;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+}
+#h2{
+    padding-left:20px;
+    text-align:center;
+}
+img{
+    display:block;
+    margin:0px auto;
+}
+@media(max-width: 800px) {
+    #grid{
+        display:block;
+    }
+    #grid ol{
+        border:none;
+    }
+    h1{
+        border:none;
+    }
+    #h1{
+        font-size: 80px;
+        color:white;
+    }
+   
+}
